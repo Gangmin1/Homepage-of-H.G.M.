@@ -11,9 +11,11 @@
         color: black;
         text-decoration: none;
     }
-    h1{
+    #Title{
         text-align: center;
         font-size: 50px;
+        padding-bottom: 20px;
+        padding-top: 20px;
     }
     #image{
         padding-top:15px;
@@ -32,6 +34,7 @@
         font-size: 15px;
         border-top: 1px solid gray;
         padding-left: 10px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     }
     #content2{
         border-top: 1px solid gray;
@@ -44,46 +47,63 @@
         border-top: 1px solid gray;
         padding-left: 10px;
     }
+    form{
+        width: 300px;
+        position: absolute;
+        right: 500px;
+        
+    }
 </style>
 </head>
 <body>
-    <h1>
-        <a href="Main.html">Gangmin City</a>
-    </h1>
+    <div id="Title">
+        <a href="Main.html" style="font-family:'Courier New', Courier, monospace">Gangmin City</a>
+    </div>
 <div id="grid">
 <div id="content1">
     <div id="image"><img src="내 사진.jpg" width="150px"></div>
     <h2><strong>Profile of me</strong></h2>
-    <strong><a href="https://me.snu.ac.kr/" target="_blank" 
-    title="서울대학교 기계공학부 홈페이지">-Dept. of Mechanical Engineering, Seoul Nat'l Univ.</a></strong> Sophomore</br>
-    <strong><a href="https://school.busanedu.net/dongin-h/main.do" target="_blank" 
-    title="동인고등학교 홈페이지">-Dongin High Sch.</a></strong> 43th grad.</br>
-    <strong><a href="https://school.busanedu.net/yonsan-m/main.do" target="_blank" 
-    title="연산중학교 홈페이지">-Yeonsan Mid. Sch.</a></strong> 36th grad.</br>
-    <strong><a href="https://school.busanedu.net/yeonseo-e/main.do" target="_blank"
-    title="연서초등학교 홈페이지">-Yeonseo Elem. Sch.</a></strong> 24th grad.</br>
-    -Born on January 17, 2001 in Busan</br>
-    -E-mail:<a style="color: red"> gkrkdals@snu.ac.kr</a>
-    </br></br>
+    <p><strong><a href="https://me.snu.ac.kr/" target="_blank" 
+    title="서울대학교 기계공학부 홈페이지">-Dept. of Mechanical Engineering, &nbsp;Seoul Nat'l Univ.</a></strong> Sophomore</p>
+    <p><strong><a href="https://school.busanedu.net/dongin-h/main.do" target="_blank" 
+    title="동인고등학교 홈페이지">-Dongin High Sch.</a></strong> 43th grad.</p>
+    <p><strong><a href="https://school.busanedu.net/yonsan-m/main.do" target="_blank" 
+    title="연산중학교 홈페이지">-Yeonsan Mid. Sch.</a></strong> 36th grad.</p>
+    <p><strong><a href="https://school.busanedu.net/yeonseo-e/main.do" target="_blank"
+    title="연서초등학교 홈페이지">-Yeonseo Elem. Sch.</a></strong> 24th grad.</p>
+    <p>-Born on January 17, 2001 in Busan</p>
+    <p>-E-mail:<a style="color: red"> gkrkdals@snu.ac.kr</a></p>
+    <br>
     <strong>Click the <strong style="color:green">green button</strong> in lower right corner of this homepage to chat with me.</strong>
     </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 </div>
 <div id="content2">
-    
+    <form action="#" method="post">
+        <fieldset>
+            <legend>방명록</legend>
+            <p>
+                <label for="username">성명</label>
+                <input type="text" id="username">
+            </p>
+            <p>
+                <label for="userfrom">소속</label>
+                <input type="text" id="userfrom">
+            </p>
+            <button type="submit">전송</button>
+        </fieldset>
+    </form>
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/WssKTfZ2vyg" title="YouTube video player" 
     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen></iframe>-->
 </div>
 <div id="content3">
-    <h2 style="font-size:30px"><strong>Go to</strong></h2>
-    <strong><a href="Baekjoon.html" target="_blank"
-    title="하강민의 백준 문제풀이" style="color:blueviolet; font-size:20px;">Gangmin's BAEKJOON</a></strong>
-    </br></br>
-    <strong><a href="Life.html" target="_blank"
-    title="하강민의 일상" style="color:blueviolet; font-size:20px;">Gangmin's Life</a></strong>
-    </br></br>
-    <strong><a href="Poem.html" target="_blank"
-    title="하강민의 시" style="color:blueviolet; font-size:20px;">Gangmin's Poem</a></strong>
+    <h2><strong style="font-size:30px">Go to</strong></h2>
+    <p><strong><a href="Baekjoon.html"
+    title="하강민의 백준 문제풀이" style="color:blueviolet; font-size:20px;">Gangmin's BAEKJOON</a></strong></p>
+    <p><strong><a href="Life.html"
+    title="하강민의 일상" style="color:blueviolet; font-size:20px;">Gangmin's Life</a></strong></p>
+    <p><strong><a href="Poem.html"
+    title="하강민의 시" style="color:blueviolet; font-size:20px;">Gangmin's Poem</a></strong></p>
 </div>
 </div>
 <!--Start of Tawk.to Script-->
