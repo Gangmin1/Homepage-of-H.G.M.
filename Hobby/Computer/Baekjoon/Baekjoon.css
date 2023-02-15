@@ -1,0 +1,33 @@
+body{
+    margin:0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#Title{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#grid{
+    display:grid;
+    grid-template-columns: 0.7fr 2.6fr 0.7fr;
+}
+#content1{
+    font-size: 15px;
+    border-top: 1px solid gray;
+    padding-left: 40px;
+}
+#content2{
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+#content3{
+    border-top: 1px solid gray;
+    padding-left: 10px;
+}
